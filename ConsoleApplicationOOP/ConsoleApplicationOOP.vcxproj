@@ -42,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -142,10 +142,16 @@
     <ClCompile Include="ConsoleApplicationOOP.cpp" />
     <ClCompile Include="Freezer.cpp" />
     <ClCompile Include="GoodBasic.cpp" />
+    <ClCompile Include="Chipsi.cpp" />
+    <ClCompile Include="Softwarecpp.cpp" />
+    <ClCompile Include="WorkClass.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Freezer.h" />
     <ClInclude Include="GoodBasic.h" />
+    <ClInclude Include="Chipsi.h" />
+    <ClInclude Include="Software.h" />
+    <ClInclude Include="WorkClass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
